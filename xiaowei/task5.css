@@ -1,0 +1,161 @@
+* {
+	font-size: 14px;
+}
+body {
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: relative;
+	height: 60px;
+}
+h1 {
+	font-size: 1.2em;
+}
+h2 {
+	opacity: 0.5;
+}
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+td, th {
+	font-size: 12px;
+	border: thin solid gray;
+	width: 1000px;
+	padding: 5px;
+	text-align: left;
+
+}
+tr.headcolor {
+	color: #fff;
+	background-color: #000;
+}
+tr.lastcolor {
+	background-color: #e8e8e8;
+	border: 0;
+}
+tr.lastcolor td {
+	border: 0;
+}
+/*nav*/
+#nav {
+	width: 100%;
+	background-color: #333;
+	height: 60px;
+	position: absolute;
+	top: 0;
+}
+.navMain {
+	margin: 0 auto;
+	height: 60px;
+}
+.navLeft {
+	display: inline;
+	margin-left: 20px;
+		
+}
+.navRight {
+	float: right;
+}
+#nav ul li {
+	float: right;
+	width: 100px;
+	margin-top: 5px;
+	margin-right: 0;
+	
+}
+#nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*mian*/
+#main {
+	margin: 0 auto;
+	position: relative;
+	padding: 0;
+	border: 1px solid #000;
+}
+#mainLeft {
+	padding: 0;
+	margin-left: 20px;
+	margin-right: 430px;
+
+}
+#sidebar {
+	float: right;
+	width: 350px;
+	background-color: #fff;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px #999;
+	
+}
+.indent {
+	text-indent: 2em;
+}
+.author {
+	color: #999;
+	opacity: 0.6;
+	font-size: 12px;
+}
+.art {
+	background-color: #fff;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 2px 2px #999;
+}
+.art ul li {
+	list-style-type: none;
+}
+.box {
+	margin-left: 20px;
+}
+.pic {
+	width: 125px;
+	height: 125px;
+	margin: 20px;
+	border: 1px solid #000;
+	text-align: center;
+	padding-bottom: 15px;
+	display: inline-block;
+}
+.radio {
+	color: blue;
+}
+form {
+	display: table;
+	padding: 50px;
+}
+form textarea {
+}
+div.tableRow {
+	display: table-row;
+}
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+.btn {
+	width: 90%;
+	height: 40px;
+	color: #fff;
+	border: 0;
+	border-radius: 15px;
+	margin: 0 20px;
+	vertical-align: middle;
+	background-color: #3355d0;
+
+}
+/*footer*/
+footer {
+	height: 60px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+}

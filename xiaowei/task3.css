@@ -1,0 +1,45 @@
+body {
+	padding: 20px;
+}
+#content {
+	display: table;
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+
+}
+#teamLeft {
+	width: 158px;
+	border: 1px solid #999;
+	padding: 20px;
+	background-color: #fff;
+	float: left;
+}
+.teamLogo img {
+	border: 1px solid #000;
+}
+.teamName {
+	font-weight: bold;
+	float: right;
+}
+#teamitr {
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+	margin-left: 220px;
+	margin-right: 140px;
+
+}
+#person {
+	width: 78px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+	text-align: center;
+	float: right;
+}
+#person img.pic {
+	border: 1px solid #000;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
