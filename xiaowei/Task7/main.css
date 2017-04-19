@@ -26,8 +26,12 @@ body {
 .nav-right li{
 	float: right;
 	width: 100px;
-	font-size: 1.2em;
+	font-size: 17px;
 	list-style-type: none;
+}
+.nav-right li span {
+	color: #e74f4d;
+	font-size: 17px;
 }
 .top-pic {
 	position: relative;
@@ -61,17 +65,19 @@ p.txt2 {
 .top-list-ul {
 	margin: 0 auto;
 }
-.top-list li {
+.top-list .top-list-ul li {
 	float: left;
 	font-size: 14px;
 	font-family: "黑体";
+	color: #767777;
 	width: 200px;
 	padding: 50px;
 	line-height: 18px;
 	margin-left: 20px;
 	list-style-type: none;
+	text-align: center;
 }
-.top-list li img {
+.top-list .top-list-ul li img {
 	display: block;
 	margin-left: 50px;
 	padding: 30px;
@@ -106,6 +112,11 @@ p.txt2 {
 }
 .world-map-txt .p2 {
 	position: absolute;
+	top: 83px;
+	left: 602px;
+}
+.world-map-txt .p3 {
+	position: absolute;
 	top: 108px;
 	left: 449px;
 	font-size: 12px;
@@ -121,6 +132,13 @@ p.txt2 {
 	width: 235px;
 	height: 35px;
 	margin-right: 30px;
+}
+.world-map-form select {
+	-webkit-appearance:none;
+	background: url(images/red-arrow.png) no-repeat right center transparent;
+	background-color: #fff;
+	padding: 5px;
+
 }
 .world-map-form input {
 	width: 235px;
@@ -165,6 +183,10 @@ p.txt2 {
 	text-align: center;
 	margin-bottom: 31px;
 
+}
+.world-pic .time-right .p1 span {
+	color: #e74f4d;
+	font-size: 21px;
 }
 .world-pic .time-right .p2 {
 	font-family: "宋体";
@@ -260,6 +282,14 @@ p.txt2 {
 	font-family: "黑体";
 	text-align: center;
 }
+.form .volunteer .red {
+	width: 31px;
+	height: 3px;
+	background: #e74f4d;
+	margin-left: 200px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
 .form .volunteer .p2 {
 	font-size: 12px;
 	font-family: "微软雅黑";
@@ -286,6 +316,12 @@ p.txt2 {
 	line-height: 21px;
 	color: #9d9b9a;
 	margin-bottom: 40px;
+}
+.volunteer-left .arrow {
+	text-align: right;
+	margin-top: -45px;
+	margin-bottom: 40px;
+	color: #9d9b9a;
 }
 .form-content-form {
 	width: 641px;
@@ -338,6 +374,22 @@ p.txt2 {
 }
 .contract-wrap input {
 	margin-bottom: 37px;
+	width: 431px;
+	height: 40px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #aaa;
+	border: 0;
+	background: #fff;
+	padding-left: 14px;
+}
+.contract-wrap span {
+	line-height: 40px;
+	display: inline-block;
+	width: 81px;
+	height: 40px;
+	background: #6f7278;
+	margin-left: -30px;
 }
 .icon ul {
 	margin-left: 500px;
