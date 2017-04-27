@@ -1,0 +1,526 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+li {
+	list-style: none;
+}
+html,body,main {
+	height: 100%;
+	background: #eeedec;
+}
+
+header {
+	background: #228abf;
+	height: 56px;
+}
+.logo img {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.login {
+	float: right;
+	margin-top: 14px;
+	margin-right: 95px;
+}
+.login input {
+	width: 312px;
+	height: 28px;
+	margin-right: 20px;
+	border-radius: 25px;
+	padding: 2px 2px 2px 20px;
+	border: 0;
+	background-image: url(images/search.png) no-repeat 2px center;
+}
+.login span {
+	display: inline-block;
+	font-family: "黑体";
+
+}
+.sidebar {
+	float: left;
+	width: 260px;
+	height: 100%;
+	background: #2a2e3d;
+	color: #fff;
+}
+
+.account {
+	padding-top: 10px;
+	width: 260px;
+	height: 148px;
+	margin-left: 45px;
+}
+.account-logo img {
+	padding: 18px 18px 18px 0;
+	vertical-align: middle;
+}
+.account-logo span {
+	font-size: 16px;
+	font-family: "黑体";
+	color: #f6f5f5;
+}
+.account-colect ul li {
+	float: left;
+	width: 100px;
+	font-size: 16px;
+	font-family: "黑体";
+	color: #6e8095;
+}
+.sidebar-list {
+	font-size: 12px;
+	font-family: "黑体";
+	color: #6e8095;
+}
+.sidebar-list-1 {
+
+	background: #383d4e;
+	padding-left: 45px;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #ededef;
+
+}
+.sidebar-list-1 ul li {
+}
+
+.sidebar-list-1 .file{
+	text-indent: 2em;
+}
+.sidebar-list-1 .file li {
+	padding: 8px;
+}
+.sidebar-list-1 .file .document {
+	text-indent: 4em;
+}
+.sidebar-list-2 {
+	padding-left: 57px;
+	font-size: 12px;
+	font-family: "黑体";
+	color: #6e8095;
+}
+.sidebar-list-2 ul li {
+	padding: 20px 20px 20px 0;
+}
+.sidebar-list-2 .li-1,.li-3,.li-4 {
+	list-style-image: url(images/collect.png);
+}
+.sidebar-list-2 .li-2 {
+	list-style-image: url(images/share.png);
+}
+.sidebar-list-2 .li-5 {
+	list-style-image: url(images/account-info.png);
+}
+main nav {
+	height: 30px;
+	padding-top: 8px;
+	padding-left: 280px;
+	font-size: 13px;
+	font-family: "黑体";
+	color: #aaa;
+	background: #fff;
+}
+.main-wrap {
+	margin-left: 360px;
+}
+.search {
+	height: 85px;
+	width: 890px;
+	margin-top: 20px;
+	background: #fff;
+}
+.search select {
+	border: 1px solid #e1e1e2;
+	-webkit-appearance: none;
+	background: url(images/arrow-down.png) no-repeat right center;
+}
+.search-1 {
+	float: left;
+	height: 56px;
+	width: 170px;
+	margin-top: 15px;
+	margin-left: 30px;
+
+}
+.search-2 {
+	float: left;
+	height: 56px;
+	width: 200px;
+	margin-top: 15px;
+}
+.search-2 select {
+	width: 120px;
+	height: 25px;
+	margin: 2px;
+}
+.search-2 ul li {
+	float: left;
+}
+.search-2 ul li img {
+	padding-top: 10px;
+}
+.search-3 {
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+
+}
+.search-3 input {
+	border: 1px solid #e1e1e2;
+}
+.search-3 select {
+	margin: 4px;
+}
+.search .button {
+	line-height: 85px;
+}
+.search .button button {
+	margin-left: 30px;
+	width: 51px;
+	height: 26px;
+	background: #388ac1;
+	color: #fff;
+	border: 0;
+	font-size: 12px;
+	font-family: "黑体";
+}
+.search span {
+	font-size: 12px;
+	font-family: "黑体";
+	color: #aaa;
+	padding: 5px;
+}
+
+/*price*/
+.price {
+	width: 890px;
+	height: 65px;
+	margin-top: 10px;
+}
+.price ul li {
+	float: left;
+	width: 109px;
+	height: 63px;
+	background: #fff;
+	margin-left: 4px;
+	text-align: center;
+	border: 1px solid #d8d9dc;
+	line-height: 27px;
+}
+.price .time {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #323333;
+}
+.price .money {
+	font-size: 21px;
+	font-family: "微软雅黑";
+	color: #ec6500;
+}
+.price .arrow-1,.arrow-2 {
+	float: left;
+	width: 29px;
+	height: 63px;
+	background: #fff;
+	border: 1px solid #d8d9dc;
+	text-align: center;
+	line-height: 63px;
+
+}
+.price .arrow-1 {
+	margin-right: 1px;
+}
+.price .arrow-2 {
+	margin-left: 4px;
+}
+.price .history {
+	float: right;
+	width: 129px;
+	height: 63px;
+	border: 1px solid #d8d9dc;
+	text-align: center;
+	line-height: 80px;
+	background: #fff;
+	margin-left: 2px;
+}
+.price .history {
+	text-align: center;
+	font-size: 15px;
+}
+.price .history img {
+	margin-bottom: 20px;
+	vertical-align: middle;
+	padding: 10px;
+}
+.price .history .pic span {
+	margin-bottom: -40px;
+	vertical-align: top;
+}
+/*statistic*/
+.statistic {
+	margin-top: 21px;
+	height: 103px;
+}
+.statistic .year {
+	padding: 6px 6px 6px 0;
+}
+.statistic ul li {
+	float: left;
+	width: 200px;
+	height: 70px;
+	background: #fff;
+	margin-right: 29px;
+}
+.statistic .green-1,.blue-1,.red-1,.yellow-1 {
+	float: left;
+}
+.statistic .txt {
+	margin-top: 15px;
+	margin-left: 17px;
+	line-height: 23px;
+}
+.statistic .green,.blue,.red,.yellow {
+	float: right;
+	margin-top: 11px;
+	margin-right: 11px;
+	font-family: "微软雅黑";
+
+}
+.item {
+	width: 890px;
+	height: 355px;
+	margin-top: 13px;
+}
+.item-1 {
+	width: 531px;
+	height: 355px;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #cfd1d5;
+
+}
+.nav {
+	height: 40px;
+	background: #f4f6f7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #e6e8eb;
+	line-height: 40px;
+	font-family: "黑体";
+	color: #aaa;
+	text-indent: 2em;
+}
+.item-1 .nav {
+	width: 531px;
+}
+.item-2 .nav {
+	width: 349px;
+}
+.item .section-container table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+.item .section-container td {
+	width: 99px;
+	height: 28px;
+	text-align: center;
+}
+#tab li {
+	float: left;
+	width: 90px;
+	height: 25px;
+	background: #ededef;
+	margin-right: 4px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	line-height: 25px;
+}
+#tab {
+	border-bottom: 1px solid #cbcccc;
+	height: 25px;
+}
+#table2,#table3,#table4,#table5 {
+	display: none;
+}
+.section-container {
+	height: 315px;
+	padding: 15px 20px 0;
+}
+#tab .li-1 {
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #cbcccc;
+	background: #fff;
+}
+ul.project-table {
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #cbcccc;
+	padding: 30px 28px 30px 40px;
+}
+.item-2 {
+	height: 355px;
+	width: 349px;
+	float: right;
+	background: #fff;
+	border: 1px solid #cfd1d5;
+	border-radius: 5px;
+}
+.item-2-wrap {
+	padding-top: 17px;
+	padding-left: 51px;
+}
+span.title {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #c3c2c2;
+}
+.item-2 table {
+	border-collapse: collapse;
+}
+.item-2 .td-1 {
+	width: 95px;
+	height: 43px;
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #e7e7e7;
+	line-height: 20px;
+	padding-left: 11px;
+}
+.item-2 .td-2 {
+	width: 185px;
+	height: 43px;
+	border-width: 1px 0 1px 1px;
+	border-style: solid;
+	border-color: #e7e7e7;
+	line-height: 20px;
+	padding-left: 11px;
+}
+.item-2 .button {
+	margin-top: 112px;
+	width: 280px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #e7e7e7;
+	padding-top: 5px;
+}
+.item-2 .button button {
+	width: 51px;
+	height: 26px;
+	color: #fff;
+	font-family: "黑体";
+	background: #388bc1;
+	border: 0;
+	margin-left: 133px;
+}
+.item-2 .button input {
+	width: 14px;
+	height: 14px;
+	background: #d5d5d5;
+	vertical-align: middle;
+	border: 0;
+}
+/*footer*/ 
+.footer {
+	width: 890px;
+	height: 354px;
+	margin-bottom: 100px;
+}
+#select {
+	margin-left: 20px;
+	height: 38px;
+	width: 308px;
+	font-family: "黑体";
+	margin-top: 15px;
+}
+#select select {
+	-webkit-appearance: none;
+	background: url(images/arrow-down.png) no-repeat right center;
+}
+#select .s-1 {
+	width: 61px;
+	height: 19px;
+	margin-left: 4px;
+	margin-top: 0;
+	padding: 0;
+}
+#select .s-2 {
+	width: 82px;
+	height: 19px;
+	margin-left: 4px;
+}
+#select .s-3 {
+	width: 72px;
+	height: 19px;
+	margin-left: 4px;
+}
+#select .s-4 {
+	width: 61px;
+	height: 19px;
+	-webkit-appearance: none;
+}
+.calendar {
+	width: 350px;
+	height: 354px;
+	background: #fff;
+	margin-top: 15px;
+	border: 1px solid #cfd1d5;
+	border-radius: 5px;
+}
+.calendar #tbody {
+	text-align: center;
+	margin: 0 auto;
+}
+.calendar #tbody td {
+	text-align: center;
+
+	font-family: "黑体";
+	font-size: 12px;
+	width: 38px;
+	height: 38px;
+}
+#tr-1  {
+	border-top:2px solid #a9cfec;
+	border-bottom: 2px solid #e1e2e2;
+	
+}
+#tbody {
+	border-collapse: collapse;
+}
+#tr-1 tbody {
+	margin-top: 10px;
+}
+#tbody .note {
+	color: #c9161d;
+}
+#tbody .note-1 {
+	border: 1px solid #f8d564;
+}
+.car {
+	float: right;
+	width: 530px;
+	height: 354px;
+	background: #fff;
+	border: 1px solid #cfd1d5;
+	border-radius: 5px;
+}
+
+.group table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.group table td,th {
+	border: 1px solid #000;
+}
+.group .rank {
+	width: 65px;
+}
+.group .brand {
+	width: 89px;
+}
+.group .index {
+	width: 289px;
+}
