@@ -134,6 +134,7 @@ main nav {
 	border: 1px solid #e1e1e2;
 	-webkit-appearance: none;
 	background: url(images/arrow-down.png) no-repeat right center;
+	padding-right: 7px;
 }
 .search-1 {
 	float: left;
@@ -270,7 +271,7 @@ main nav {
 	width: 200px;
 	height: 70px;
 	background: #fff;
-	margin-right: 29px;
+	margin-right: 27px;
 }
 .statistic .green-1,.blue-1,.red-1,.yellow-1 {
 	float: left;
@@ -298,6 +299,7 @@ main nav {
 	background: #fff;
 	border-radius: 5px;
 	border: 1px solid #cfd1d5;
+	font-family: "宋体";
 
 }
 .nav {
@@ -359,6 +361,7 @@ ul.project-table {
 	border-style: solid;
 	border-color: #cbcccc;
 	padding: 30px 28px 30px 40px;
+	font-family: "宋体";
 }
 .item-2 {
 	height: 355px;
@@ -508,13 +511,13 @@ span.title {
 }
 
 .group table {
-	border: 1px solid #000;
 	border-collapse: collapse;
 	margin: 30px auto;
+	
 
 }
 .group table td,th {
-	border: 1px solid #000;
+	border: 1px solid #cbcbcb;
 	margin-right: 90px;
 }
 .group th.index {
@@ -539,7 +542,7 @@ span.title {
 }
 .group tbody tr td {
 	text-align: center;
-	padding: 3px;
+	padding: 5px;
 	font-family: "黑体";
 }
 .group b {
@@ -583,4 +586,7 @@ span.title {
 }
 .group .txt {
 	display: inline-block;
+}
+.group #tr-bottom td {
+	border-bottom: 0;
 }
